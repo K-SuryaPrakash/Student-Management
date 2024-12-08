@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Select and View All Data</title>
+</head>
+<body>
+<table>
+<tr>
+<th>Name|</th>
+<th>Gender|</th>
+<th>Major|</th>
+<th>Phone|</th>
+<tr>
+<tbody>
+            <tr th:each="a:${abcd}">
+                <td th:text="${a.Name}">Name</td>
+                <td th:text="${a.Gender}">Gender</td>
+                <td th:text="${a.Major}">Major</td>
+                <td th:text="${a.Phone}">Phone</td>
+            </tr>
+        </tbody>
+
+</table>
+
+
+</body>
+</html>
+
+</body>
+</html>
